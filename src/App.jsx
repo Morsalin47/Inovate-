@@ -7,6 +7,8 @@ import Integrate from "./components/Integrate/Integrate"
 import Service from "./components/Service/Service"
 import Customer from "./components/Customer/Customer"
 import Pricing from "./components/Pricing/Pricing"
+import AboutUs from "./components/AboutUs/AboutUs"
+import Footer from "./components/Footer/Footer"
 function App() {
 
 
@@ -22,6 +24,8 @@ function App() {
       <Service />
       <Customer />
       <Pricing />
+      <AboutUs />
+      <Footer />
     </>
 
 
