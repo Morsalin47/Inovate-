@@ -10,3 +10,26 @@
     --color-tittle: #2C2643;
     --color-pera: #645E76
   }
+
+  .slick-slider .slick-track, .slick-slider .slick-list {
+    border-radius: 20px !important;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 60% !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #3639A4 !important;
+    border: none;
+    outline: none;
+    background: transparent;
+}
